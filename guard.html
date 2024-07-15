@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lynbrook Color Guard Calendar</title>
+    <title>Lynbrook Color Guard and Winter Guard</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,7 +26,7 @@
 
         h1 {
             font-family: 'Dancing Script', cursive;
-            font-size: 3em;
+            font-size: 2.8em;
             margin: 0;
         }
 
@@ -34,12 +34,6 @@
             margin: 10px 0;
             display: flex;
             justify-content: center;
-        }
-
-        iframe {
-            margin-top: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            border-radius: 10px;
         }
 
         .nav-buttons {
@@ -118,6 +112,92 @@
             background-color: #cdd1d3;
         }
 
+        .video-container {
+            width: 100%;
+            font-size: 0;
+            text-align: center;
+        }
+        .video {
+            display: inline-block;
+            width: 43%;
+            margin-right: 3%; 
+            vertical-align: top; 
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        .video iframe {
+            width: 100%;
+            height: 315px; 
+        }
+
+        .video_2 {
+            display: inline-block;
+            width: 65%; 
+            margin-right: 3%; 
+            vertical-align: top; 
+            font-size: 16px; 
+            box-sizing: border-box; 
+        }
+
+        .captain {
+            margin-bottom: 20px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            width: 80%;
+        }
+        .captain img {
+            max-width: 250px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .captain-details {
+            flex-grow: 1;
+        }
+        .captain-name {
+            font-size: 35px;
+            font-weight: bold;
+            color: rgb(0, 0, 149);
+            margin-bottom: 10px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .captain-description {
+            font-size: 20px;
+            color: #000000;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-top: 10px;
+        }
+
+        .title {
+            font-size: 28px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            color: #000000;
+            margin-bottom: 10px;
+            margin-top: 50px;
+            margin-right: 60px;
+            margin-left: 60px;
+            padding: 10px 0;
+            border-top: 2px solid #5f8cff;
+            border-bottom: 2px solid #5f8cff;
+            text-align: center;
+        }
+
+        .title_2 {
+            font-size: 50px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            color: #000000;
+            margin-bottom: 10px;
+            margin-top: 50px;
+            margin-right: 60px;
+            margin-left: 60px;
+            padding: 10px 0;
+            border-top: 2px solid #5f8cff;
+            border-bottom: 2px solid #5f8cff;
+            text-align: center;
+        }
+
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -140,13 +220,9 @@
         <div class="scrolling-text">2023-2024 Winter Theme — Hanahaki: Tales of Unrequited Love</div>
     </div>
     <header>
-        <h1>Lynbrook Color Guard Calendar</h1>
+        <h1>Lynbrook Color Guard and Winter Guard</h1>
     </header>
     
-    <main>
-        <iframe src="https://docs.google.com/document/d/1J3m3Qs-aqFHFdWyLDySNUPHYwoVf3EqAjuokpFZ1A8U/preview" 
-                style="border: 0" width="1300" height="600" frameborder="0" scrolling="no"></iframe>
-    </main>
     <div class="nav-buttons">
         <button onclick="window.location.href='calendar.html'">Calendar</button>
         <button onclick="window.location.href='guard.html'">Color Guard & Winter Guard</button>
@@ -159,10 +235,32 @@
         <button onclick="window.location.href='index.html'">Home</button>
     </div>
 
-    <div class="footer">
-        &copy; 2024 Lynbrook Color Guard. All rights reserved. Contact us at <a href="mailto:colorguardlynbrook@gmail.com">colorguardlynbrook@gmail.com</a> 
-        
+
+<div class="video-container">
+    <div class="video">
+        <div class="title">2023 Fall Show: Toy Box</div>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rqk4Zyin4xM?si=Hasjz2Cm4CT_NcK4" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+        <div class="title">2022 Fall Show: The Summit</div>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/hm5ArV7AVG4?si=tW60WohTzQkao-m-" frameborder="0" allowfullscreen></iframe>
     </div>
 
+    <div class="video_2">
+        <div class="title">2024 Winter Show — Hanahaki: Tales of Unrequited Love</div>
+        <iframe width="100%" height="500" src="https://drive.google.com/file/d/1NNHE4w9yhi9SY41Y2RAfzdV1qNxh__A3/preview" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+
+</div>
+
+<div class="footer">
+    &copy; 2024 Lynbrook Color Guard. All rights reserved. Contact us at <a href="mailto:colorguardlynbrook@gmail.com">colorguardlynbrook@gmail.com</a> 
+    
+</div>
+
+
 </body>
+
+
 </html>

@@ -112,24 +112,6 @@
             background-color: #cdd1d3;
         }
 
-        .video-container {
-            width: 100%;
-            font-size: 0; /* Fix for inline-block spacing */
-            text-align: center;
-        }
-        .video {
-            display: inline-block;
-            width: 43%; /* Adjust the width of each video */
-            margin-right: 3%; /* Adjust the gap between videos */
-            vertical-align: top; /* Align videos at the top */
-            font-size: 16px; /* Reset font size for content */
-            box-sizing: border-box; /* Include padding and border in width */
-        }
-        .video iframe {
-            width: 100%;
-            height: 315px; /* Adjust the height as needed */
-        }
-
         .captain {
             margin-bottom: 20px;
             overflow: hidden;
@@ -189,6 +171,21 @@
             text-align: center;
         }
 
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .footer a {
+            color: #555;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
@@ -201,26 +198,15 @@
     
     <div class="nav-buttons">
         <button onclick="window.location.href='calendar.html'">Calendar</button>
-        <button onclick="window.location.href='color-guard.html'">Color Guard</button>
-        <button onclick="window.location.href='winter-guard.html'">Winter Guard</button>
+        <button onclick="window.location.href='guard.html'">Color Guard & Winter Guard</button>
+        <!-- <button onclick="window.location.href='winter-guard.html'">Winter Guard</button> -->
+        <button onclick="window.location.href='team.html'">Meet the Team</button>
         <button onclick="window.location.href='join.html'">Join Us!</button>
     </div>
 
     <div class="home-button">
         <button onclick="window.location.href='index.html'">Home</button>
     </div>
-
-
-<div class="video-container">
-    <div class="video">
-        <div class="title">2023 Show: Toy Box</div>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Rqk4Zyin4xM?si=Hasjz2Cm4CT_NcK4" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="video">
-        <div class="title">2022 Show: The Summit</div>
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/hm5ArV7AVG4?si=tW60WohTzQkao-m-" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
 
 <div class="title_2">Meet the Captains</div>
 
@@ -242,7 +228,7 @@
     </div>
 </div>
 <div class="captain">
-    <img src="https://ucc4ad5167c5308be69b482d747b.previews.dropboxusercontent.com/p/thumb/ACVzs4xn4D7YrXQVNnkNluTZxy6FkzBzU8uIQxcKWhItGmxiKEpNgYvFW23a8Tv1TjR8hykBZwTx-tNEjlvnMuY4g_1XL85lslfXanvW87mM_vptZJOwo9tLnDftEyHr4oAt_kFUp3CoHaG9_9wUWwzXhse_BO7PdbpBibLq4jEoMld0IMq9qVQz0okeKg3MNcNZvXZKrxcPu_KNrS-8VhUr1im4DsmrdCbJd2xU6KSW6zWd_JbbBDMJd9R48ZCQdBxOi343KkN3EgSNLzCthGD1mPF22lkLXWMbJepSfbgOfIwDkeKfpyg6Iq45vfrEwV_DHOVug6JQQDCOSRC7WNwPP5g_SRPy1p0VpEtCxJzyzDW3bYKl63Y5lUOXU90YwVEIlou9_-jS-npJN4g3o7bx/p.png?is_prewarmed=true" alt="Captain 3">
+    <img src="https://i.imgur.com/AqYNF1T.png" alt="Captain 2">
     <div class="captain-details">
         <div class="captain-name">Chloe Luong</div>
         <div class="captain-description">
@@ -256,7 +242,7 @@
     </div>
 </div>
 <div class="captain">
-    <img src="https://uca9800f5ed3a28ba79f09e666c9.previews.dropboxusercontent.com/p/thumb/ACUL8UvrP_9OewK8mbz0NRScpfPSZl3iZYHLUF7jW-tAcKMuQEEUDi4syxgXXS1Uet4ZDGgIhe0R-vJQPulZ2s4feGB1mqCmy9GFPyNiLsLS--uS1srr4JRQfkcA5L17kd6KJCu2H5KU4C5h3cJA2xX6eO8loTvwnUUEtN8a_RQN6oVcOEv7hfjj9HDBjOpI80Hu1fgFuKYCY_WGjVtEmsJ9ffYaP_MSeAz7KuMFB8tG7jNiUmSpns3wd_lXrkHQX_0Y6TaK3twmSjkYTx8ipI7jKMMSLkXhM905RglbX0ZG59xdcMrui6e0zYJHIVf1YwdvjsoZzWqLwmVgvNa7C8V9iYZ3K5EUFe_t7uv5OGVRdjg9gPDWRYHTTAOlBtArn6WQ463oxGph3jqV5LEp1tQe/p.png?is_prewarmed=true" alt="Captain 2">
+    <img src="https://i.imgur.com/ahkWqY4.png" alt="Captain 3">
     <div class="captain-details">
         <div class="captain-name">Marie Klassen</div>
         <div class="captain-description">
@@ -269,6 +255,12 @@
         </div>
     </div>
 </div>
+
+<div class="footer">
+    &copy; 2024 Lynbrook Color Guard. All rights reserved. Contact us at <a href="mailto:colorguardlynbrook@gmail.com">colorguardlynbrook@gmail.com</a> 
+    
+</div>
+
 
 </body>
 
